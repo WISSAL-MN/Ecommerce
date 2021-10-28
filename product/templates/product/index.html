@@ -1,0 +1,12 @@
+<html>
+    <h1>HOME</h1>
+    <h1>{{ title }}</h1>
+    
+    {% for element in product_list  %}
+        <p>{{ element }}</p> <br>
+        <hr>
+    {% endfor %}
+    <form>
+        {{form.as_p}}
+    </form>
+</html>
